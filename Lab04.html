@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="main.css">
+    <script type="text/javascript" src="main.js"></script>
+    <title>Lab04</title>
+</head>
+
+<body>
+    <div class="topdiv">
+        <h2>Artist Directory</h1>
+        <input id="searchBar" type="text">
+        <button class="add"id="addArtist" onclick="openForm()">Add</button>
+        <button class="add"id="search" onclick="search()">Search</button>
+    </div>
+    <div id="form">
+        <form id="artistForm">
+            <input type="text" placeholder="Artist Name" maxlength="40">
+            <input type="text" placeholder="About Artist" maxlength="40">
+            <input type="text" placeholder="Image url">
+            <button class="add" id="button" onclick="addArtist()">Add</button>
+        </form>
+    </div> 
+    <ul id="list">
+    </ul>
+    
+</body>
+
+</html>
